@@ -91,19 +91,19 @@ export const IconStarSolid = createIconComponent(
   "M13.3814 3.19172C12.996 2.52757 12.0369 2.52756 11.6515 3.19172L8.93743 7.86903C8.74706 8.19711 8.41801 8.421 8.04294 8.47765L2.95663 9.24588C2.10235 9.3749 1.80269 10.4535 2.46799 11.0047L6.25708 14.1439C6.60783 14.4345 6.77275 14.8929 6.68754 15.3403L5.69638 20.5455C5.53969 21.3683 6.40348 22.0076 7.14463 21.6174L11.934 19.0955C12.2986 18.9036 12.7343 18.9036 13.0988 19.0955L17.8882 21.6174C18.6294 22.0076 19.4931 21.3683 19.3365 20.5455L18.3453 15.3403C18.2601 14.8929 18.425 14.4345 18.7757 14.1439L22.5648 11.0047C23.2301 10.4535 22.9305 9.37491 22.0762 9.24588L16.9899 8.47765C16.6148 8.421 16.2858 8.19711 16.0954 7.86903L13.3814 3.19172Z"
 );
 
-figma.connect(IconArrowDown, "<ICON_FIGMA_FILE>?node-id=22:575");
-figma.connect(IconArrowLeft, "<ICON_FIGMA_FILE>?node-id=22:569");
-figma.connect(IconArrowRight, "<ICON_FIGMA_FILE>?node-id=22:571");
-figma.connect(IconArrowUp, "<ICON_FIGMA_FILE>?node-id=22:573");
-figma.connect(IconBookmark, "<ICON_FIGMA_FILE>?node-id=22:565");
-figma.connect(IconBookmarkSolid, "<ICON_FIGMA_FILE>?node-id=22:589");
-figma.connect(IconCaretLeft, "<ICON_FIGMA_FILE>?node-id=22:577");
-figma.connect(IconCaretRight, "<ICON_FIGMA_FILE>?node-id=22:579");
-figma.connect(IconCaretDown, "<ICON_FIGMA_FILE>?node-id=22:583");
-figma.connect(IconCaretUp, "<ICON_FIGMA_FILE>?node-id=22:581");
-figma.connect(IconCheck, "<ICON_FIGMA_FILE>?node-id=22:587");
-figma.connect(IconHeart, "<ICON_FIGMA_FILE>?node-id=22:561");
-figma.connect(IconHeartSolid, "<ICON_FIGMA_FILE>?node-id=22:567");
-figma.connect(IconRefresh, "<ICON_FIGMA_FILE>?node-id=22:585");
-figma.connect(IconStar, "<ICON_FIGMA_FILE>?node-id=22:559");
-figma.connect(IconStarSolid, "<ICON_FIGMA_FILE>?node-id=22:591");
+figma.connect(IconArrowDown, "<FIGMA_ICON_BASE>?node-id=22:575");
+figma.connect(IconArrowLeft, "<FIGMA_ICON_BASE>?node-id=22:569");
+figma.connect(IconArrowRight, "<FIGMA_ICON_BASE>?node-id=22:571");
+figma.connect(IconArrowUp, "<FIGMA_ICON_BASE>?node-id=22:573");
+figma.connect(IconBookmark, "<FIGMA_ICON_BASE>?node-id=22:565");
+figma.connect(IconBookmarkSolid, "<FIGMA_ICON_BASE>?node-id=22:589");
+figma.connect(IconCaretLeft, "<FIGMA_ICON_BASE>?node-id=22:577");
+figma.connect(IconCaretRight, "<FIGMA_ICON_BASE>?node-id=22:579");
+figma.connect(IconCaretDown, "<FIGMA_ICON_BASE>?node-id=22:583");
+figma.connect(IconCaretUp, "<FIGMA_ICON_BASE>?node-id=22:581");
+figma.connect(IconCheck, "<FIGMA_ICON_BASE>?node-id=22:587");
+figma.connect(IconHeart, "<FIGMA_ICON_BASE>?node-id=22:561");
+figma.connect(IconHeartSolid, "<FIGMA_ICON_BASE>?node-id=22:567");
+figma.connect(IconRefresh, "<FIGMA_ICON_BASE>?node-id=22:585");
+figma.connect(IconStar, "<FIGMA_ICON_BASE>?node-id=22:559");
+figma.connect(IconStarSolid, "<FIGMA_ICON_BASE>?node-id=22:591");

@@ -5,7 +5,16 @@
     "exclude": ["src/**/*.figma.{tsx,jsx}", "src/ui/icons.tsx"],
     "label": "React",
     "documentUrlSubstitutions": {
-      "<ICON_FIGMA_FILE>": "https://www.figma.com/design/A6FOwGsBIvChERegmtM2oH/"
+      "<FIGMA_COMPLEX_BUTTON>": "https://www.figma.com/design/A6FOwGsBIvChERegmtM2oH/?node-id=22-360",
+      "<FIGMA_ICON_BUTTON": "https://www.figma.com/design/A6FOwGsBIvChERegmtM2oH/?node-id=22-518",
+      "<FIGMA_ICON_BASE>": "https://www.figma.com/design/A6FOwGsBIvChERegmtM2oH/",
+      "<FIGMA_M_TO_1_PRIMARY_BUTTON>": "https://www.figma.com/design/A6FOwGsBIvChERegmtM2oH/?node-id=124-919",
+      "<FIGMA_M_TO_1_SECONDARY_BUTTON>": "https://www.figma.com/design/A6FOwGsBIvChERegmtM2oH/?node-id=124-1136",
+      "<FIGMA_M_TO_1_INVERSE_BUTTON>": "https://www.figma.com/design/A6FOwGsBIvChERegmtM2oH/?node-id=124-1281",
+      "<FIGMA_1_TO_M_BUTTON>": "https://www.figma.com/design/A6FOwGsBIvChERegmtM2oH/?node-id=27-969",
+      "<FIGMA_DIALOG>": "https://www.figma.com/design/A6FOwGsBIvChERegmtM2oH/?node-id=45-1366",
+      "<FIGMA_DIALOG_CONTENT>": "https://www.figma.com/design/A6FOwGsBIvChERegmtM2oH/?node-id=45-1668",
+      "<FIGMA_DIALOG_ACTIONS>": "https://www.figma.com/design/A6FOwGsBIvChERegmtM2oH/?node-id=45-1561"
     }
   }
 }
