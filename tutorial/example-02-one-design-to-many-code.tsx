@@ -24,16 +24,32 @@ const sharedProps = {
   }),
 };
 
-figma.connect(
-  PrimaryButton,
-  "https://www.figma.com/file/azv53zX7Jry7jQUQqMGzqf?node-id=27-969",
-  {
-    variant: { Variant: "Primary" },
-    props: sharedProps,
-    example: ({ label, ...sharedProps }) => (
-      <PrimaryButton onClick={() => {}} {...sharedProps}>
-        {label}
-      </PrimaryButton>
-    ),
-  }
-);
+figma.connect(PrimaryButton, "<FIGMA_1_TO_M_BUTTON>", {
+  variant: { Variant: "Primary" },
+  props: sharedProps,
+  example: ({ label, ...sharedProps }) => (
+    <PrimaryButton onClick={() => {}} {...sharedProps}>
+      {label}
+    </PrimaryButton>
+  ),
+});
+
+figma.connect(SecondaryButton, "<FIGMA_1_TO_M_BUTTON>", {
+  variant: { Variant: "Secondary" },
+  props: sharedProps,
+  example: ({ label, ...sharedProps }) => (
+    <SecondaryButton onClick={() => {}} {...sharedProps}>
+      {label}
+    </SecondaryButton>
+  ),
+});
+
+figma.connect(InverseButton, "<FIGMA_1_TO_M_BUTTON>", {
+  variant: { Variant: "Inverse" },
+  props: sharedProps,
+  example: ({ label, ...sharedProps }) => (
+    <InverseButton onClick={() => {}} {...sharedProps}>
+      {label}
+    </InverseButton>
+  ),
+});

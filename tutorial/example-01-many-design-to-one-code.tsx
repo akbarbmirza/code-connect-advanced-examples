@@ -29,3 +29,23 @@ figma.connect(Button, "<FIGMA_M_TO_1_PRIMARY_BUTTON>", {
     </Button>
   ),
 });
+
+// Secondary Button Component
+figma.connect(Button, "<FIGMA_M_TO_1_SECONDARY_BUTTON>", {
+  props: sharedProps,
+  example: ({ label, ...props }) => (
+    <Button variant="secondary" onClick={() => {}} {...props}>
+      {label}
+    </Button>
+  ),
+});
+
+// Inverse Button Component
+figma.connect(Button, "<FIGMA_M_TO_1_INVERSE_BUTTON>", {
+  props: sharedProps,
+  example: ({ label, ...props }) => (
+    <Button variant="inverse" onClick={() => {}} {...props}>
+      {label}
+    </Button>
+  ),
+});
