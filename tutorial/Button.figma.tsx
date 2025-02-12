@@ -1,9 +1,10 @@
-import { Button } from "./Button";
+import React from "react";
+import { Button } from "../src/ui/Buttons/Button";
 import figma from "@figma/code-connect";
 
 figma.connect(
   Button,
-  "https://www.figma.com/file/azv53zX7Jry7jQUQqMGzqf/FOCUS_-Core-Library?type=design&node-id=22-360&mode=design&t=YD7NBNStiSEwdYdM-11",
+  "https://www.figma.com/design/A6FOwGsBIvChERegmtM2oH/Code-Connect-Tutorial-Advanced?node-id=22-360&m=dev",
   {
     props: {
       label: figma.string("Label"),
@@ -26,19 +27,10 @@ figma.connect(
         Small: "small",
       }),
     },
-    example: ({ label, iconEnd, iconStart, variant, disabled, size }) => (
-      <Button
-        element="a"
-        href="https://www.figma.com"
-        iconEnd={iconEnd}
-        iconStart={iconStart}
-        variant={variant}
-        disabled={disabled}
-        size={size}
-      >
+    example: ({ label, ...props }) => (
+      <Button onClick={() => {}} {...props}>
         {label}
       </Button>
     ),
-    links: [{ url: "https://storybookjs.org", name: "Storybook" }],
   }
 );

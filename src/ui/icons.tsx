@@ -4,23 +4,24 @@ type IconProps = { size?: "sm" | "md" | "lg" };
 
 const createIconComponent =
   (path: string) =>
-  ({ size = "md" }: IconProps = {}) => (
-    <svg
-      className={`icon icon-size-${size}`}
-      width="25"
-      height="25"
-      viewBox="0 0 25 25"
-      fill="var(--icon-fill)"
-      xmlns="http://www.w3.org/2000/svg"
-    >
-      <path
-        d={path}
-        fillRule="evenodd"
-        clipRule="evenodd"
+  ({ size = "md" }: IconProps = {}) =>
+    (
+      <svg
+        className={`icon icon-size-${size}`}
+        width="25"
+        height="25"
+        viewBox="0 0 25 25"
         fill="var(--icon-fill)"
-      />
-    </svg>
-  );
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <path
+          d={path}
+          fillRule="evenodd"
+          clipRule="evenodd"
+          fill="var(--icon-fill)"
+        />
+      </svg>
+    );
 
 export const IconArrowDown = createIconComponent(
   "M13.2336 16.5878L15.9533 13.8682C16.2462 13.5753 16.7211 13.5753 17.014 13.8682C17.3069 14.1611 17.3069 14.6359 17.014 14.9288L13.014 18.9288C12.7211 19.2217 12.2462 19.2217 11.9533 18.9288L7.95331 14.9288C7.66042 14.6359 7.66042 14.1611 7.95331 13.8682C8.24621 13.5753 8.72108 13.5753 9.01397 13.8682L11.7336 16.5878L11.7336 6.8985C11.7336 6.48429 12.0694 6.1485 12.4836 6.1485C12.8979 6.1485 13.2336 6.48429 13.2336 6.8985L13.2336 16.5878Z"
@@ -90,67 +91,19 @@ export const IconStarSolid = createIconComponent(
   "M13.3814 3.19172C12.996 2.52757 12.0369 2.52756 11.6515 3.19172L8.93743 7.86903C8.74706 8.19711 8.41801 8.421 8.04294 8.47765L2.95663 9.24588C2.10235 9.3749 1.80269 10.4535 2.46799 11.0047L6.25708 14.1439C6.60783 14.4345 6.77275 14.8929 6.68754 15.3403L5.69638 20.5455C5.53969 21.3683 6.40348 22.0076 7.14463 21.6174L11.934 19.0955C12.2986 18.9036 12.7343 18.9036 13.0988 19.0955L17.8882 21.6174C18.6294 22.0076 19.4931 21.3683 19.3365 20.5455L18.3453 15.3403C18.2601 14.8929 18.425 14.4345 18.7757 14.1439L22.5648 11.0047C23.2301 10.4535 22.9305 9.37491 22.0762 9.24588L16.9899 8.47765C16.6148 8.421 16.2858 8.19711 16.0954 7.86903L13.3814 3.19172Z"
 );
 
-figma.connect(
-  IconArrowDown,
-  "https://www.figma.com/file/azv53zX7Jry7jQUQqMGzqf?node-id=22:575"
-);
-figma.connect(
-  IconArrowLeft,
-  "https://www.figma.com/file/azv53zX7Jry7jQUQqMGzqf?node-id=22:569"
-);
-figma.connect(
-  IconArrowRight,
-  "https://www.figma.com/file/azv53zX7Jry7jQUQqMGzqf?node-id=22:571"
-);
-figma.connect(
-  IconArrowUp,
-  "https://www.figma.com/file/azv53zX7Jry7jQUQqMGzqf?node-id=22:573"
-);
-figma.connect(
-  IconBookmark,
-  "https://www.figma.com/file/azv53zX7Jry7jQUQqMGzqf?node-id=22:565"
-);
-figma.connect(
-  IconBookmarkSolid,
-  "https://www.figma.com/file/azv53zX7Jry7jQUQqMGzqf?node-id=22:589"
-);
-figma.connect(
-  IconCaretLeft,
-  "https://www.figma.com/file/azv53zX7Jry7jQUQqMGzqf?node-id=22:577"
-);
-figma.connect(
-  IconCaretRight,
-  "https://www.figma.com/file/azv53zX7Jry7jQUQqMGzqf?node-id=22:579"
-);
-figma.connect(
-  IconCaretDown,
-  "https://www.figma.com/file/azv53zX7Jry7jQUQqMGzqf?node-id=22:583"
-);
-figma.connect(
-  IconCaretUp,
-  "https://www.figma.com/file/azv53zX7Jry7jQUQqMGzqf?node-id=22:581"
-);
-figma.connect(
-  IconCheck,
-  "https://www.figma.com/file/azv53zX7Jry7jQUQqMGzqf?node-id=22:587"
-);
-figma.connect(
-  IconHeart,
-  "https://www.figma.com/file/azv53zX7Jry7jQUQqMGzqf?node-id=22:561"
-);
-figma.connect(
-  IconHeartSolid,
-  "https://www.figma.com/file/azv53zX7Jry7jQUQqMGzqf?node-id=22:567"
-);
-figma.connect(
-  IconRefresh,
-  "https://www.figma.com/file/azv53zX7Jry7jQUQqMGzqf?node-id=22:585"
-);
-figma.connect(
-  IconStar,
-  "https://www.figma.com/file/azv53zX7Jry7jQUQqMGzqf?node-id=22:559"
-);
-figma.connect(
-  IconStarSolid,
-  "https://www.figma.com/file/azv53zX7Jry7jQUQqMGzqf?node-id=22:591"
-);
+figma.connect(IconArrowDown, "<ICON_FIGMA_FILE>?node-id=22:575");
+figma.connect(IconArrowLeft, "<ICON_FIGMA_FILE>?node-id=22:569");
+figma.connect(IconArrowRight, "<ICON_FIGMA_FILE>?node-id=22:571");
+figma.connect(IconArrowUp, "<ICON_FIGMA_FILE>?node-id=22:573");
+figma.connect(IconBookmark, "<ICON_FIGMA_FILE>?node-id=22:565");
+figma.connect(IconBookmarkSolid, "<ICON_FIGMA_FILE>?node-id=22:589");
+figma.connect(IconCaretLeft, "<ICON_FIGMA_FILE>?node-id=22:577");
+figma.connect(IconCaretRight, "<ICON_FIGMA_FILE>?node-id=22:579");
+figma.connect(IconCaretDown, "<ICON_FIGMA_FILE>?node-id=22:583");
+figma.connect(IconCaretUp, "<ICON_FIGMA_FILE>?node-id=22:581");
+figma.connect(IconCheck, "<ICON_FIGMA_FILE>?node-id=22:587");
+figma.connect(IconHeart, "<ICON_FIGMA_FILE>?node-id=22:561");
+figma.connect(IconHeartSolid, "<ICON_FIGMA_FILE>?node-id=22:567");
+figma.connect(IconRefresh, "<ICON_FIGMA_FILE>?node-id=22:585");
+figma.connect(IconStar, "<ICON_FIGMA_FILE>?node-id=22:559");
+figma.connect(IconStarSolid, "<ICON_FIGMA_FILE>?node-id=22:591");

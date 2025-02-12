@@ -1,0 +1,11 @@
+{
+  "codeConnect": {
+    "parser": "react",
+    "include": ["src/**/*.{tsx,jsx}", "tutorial/**/*.{tsx, jsx}"],
+    "exclude": ["src/**/*.figma.{tsx,jsx}", "src/ui/icons.tsx"],
+    "label": "React",
+    "documentUrlSubstitutions": {
+      "<ICON_FIGMA_FILE>": "https://www.figma.com/design/A6FOwGsBIvChERegmtM2oH/"
+    }
+  }
+}

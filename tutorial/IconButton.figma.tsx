@@ -1,9 +1,10 @@
-import { IconButton } from "./IconButton";
+import React from "react";
+import { IconButton } from "../src/ui/Buttons/IconButton";
 import figma from "@figma/code-connect";
 
 figma.connect(
   IconButton,
-  "https://www.figma.com/file/azv53zX7Jry7jQUQqMGzqf/FOCUS_-Core-Library?type=design&node-id=22-518&mode=design&t=YD7NBNStiSEwdYdM-11",
+  "https://www.figma.com/design/A6FOwGsBIvChERegmtM2oH/Code-Connect-Tutorial-Advanced?node-id=22-518&t=VOdBJ0uw2W2u8Oo2-0",
   {
     props: {
       variant: figma.enum("Variant", {
